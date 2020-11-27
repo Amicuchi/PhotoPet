@@ -1,0 +1,35 @@
+* Blocos reaproveitáveis
+
+Página inicial
+    Menu*
+    Banner Principal*
+    Serviços em destaque
+        Carrocel de fotos
+    Parallax*
+    Rodapé*
+
+Serviços
+    Menu*
+    Banner Principal*
+    Como funciona
+    Lista de Serviços
+    Rodapé*
+
+Galeria
+    Menu*
+    Banner Principal*
+    Galeria de Fotos
+    Rodapé*
+
+Sobre nós
+    Menu*
+    Banner Principal*
+    Sobre a empresa 
+    Rodapé*
+
+Contato
+    Menu*
+    Banner Principal*
+    Formulário de Contato
+    GMaps - Localização da Empresa
+    Rodapé*
