@@ -6,6 +6,7 @@
 body {
     width: 100%;
     height: 100vh;
+    background-color: rgb(228, 228, 228);
     /* font-family: ; */
 }
 
@@ -14,6 +15,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+/*----- Início do Menu Superior e do Header -----*/
 
 header{
     line-height: 2rem;
@@ -41,23 +45,29 @@ header div{
 header div ul li{
     display: inline;
 }
-li a {
+header li a {
     color: black;
     text-align: center;
     padding: 0.5rem 1.5rem;
     text-decoration: none;
 }
 
-li a:hover {
+header li a:hover {
     background-color:#d1985bd2;
     color: white;
     text-decoration: none;
     border-radius: 20px;
 }
 
-/* main {
-    min-height: 550px;
-} */
+/*----- FIM DO HEADER E DO MENU -----*/
+
+
+/*----- Início do Main na Página Inicial -----*/
+
+
+
+/*----- Fim do Main na Página Inicial -----*/
+
 
 footer {
     width: 100%;
@@ -68,3 +78,4 @@ footer {
     text-align: center;
     background-color: #E9CDAF;
 }
+
