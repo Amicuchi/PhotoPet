@@ -30,36 +30,41 @@
             border-radius: 16px 0px 16px 0px;;
         
         }
+        #babies {
+            background-image: url(../GPI6_PhotoPet/img/dog-puppies.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
 
-        #pregs {
+        }
+        #barriga {
             background-image: url(../GPI6_PhotoPet/img/dog-pregnant.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 47vh;
-            width: 43vw;
-            margin-left: auto;
             background-position: center;
+        }
+        .pregs {
+           
+            height: 47vh;
+            /*width: 43vw;*/
+            margin-left: auto;
+            
             border-radius: 16px 0px 0px 16px;
             box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
             
         }
-        #pregtext {
+        .pregtext {
             box-sizing: border-box;
             padding: 3% 3% 2% 3%;
-            background-color: blueviolet;
             height: 47vh;
-            width: 43vw;
+            /*width: 43vw;*/
             margin-right: auto;
             border-radius: 0px 16px 16px 0px;
             box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.25);
             background-color: #ffffff;
-        }
-
-        #pregtext p {
-            
-        }
+        }      
         
-        div h3 {
+        .pregtext h3 {
             font-family: 'Inter', sans-serif;
             color: #2b2b2b;
             font-size: 22px;
@@ -71,7 +76,7 @@
             
         }
 
-        div p {
+        .pregtext p {
             font-family: "Inter", sans-serif;
             color: #2b2b2b;
             font-size: 105%;
@@ -94,10 +99,8 @@
             font-family: 'inter', sans-serif;
             font-weight: 700;
 
-            
-
-            
         }
+        
         
         .consulte a {
             color:#2b2b2b;
@@ -122,7 +125,7 @@
 
 <body>
     <header>
-        <div class="container"> 
+        <div class="containers"> 
             <a href="/index.html"><img id="logo-header" src="/img/logo.png" alt="Logo PhotoPet"></a>
             <ul id="menuSuperior">
                 <li><a href="index.html">Página Inicial</a></li>
@@ -137,18 +140,30 @@
     <main class="container">
         
         <h2>Nossos Serviços</h2>
-        <div id="serviços" class="row">
-            <div class="col-xl-5 col-sm-6" id="pregs">
+        <div class="row servicos">
+            <div class="col-md-5 col-sm-10 col-xs-10 teste pregs" id="barriga">
             </div>
-            <div class="col-xl-5 col-sm-6" id="pregtext">
+            <div class="col-md-5 col-sm-10 col-xs-10 pregtext">
                 <h3>Pack Maternidade</h3>
                 <p>Que tal capturar esse precioso - e tão curto! - momento em um lindo ensaio maternidade? Guarde para sempre as memórias desta ansiosa espera. Três, quatro...? Quantos cabem aí dentro? </p>
                 <div class="d-flex justify-content-center botao">
                     <button class="consulte"><a href="#">CONSULTE VALORES</a></button>
                 </div>
             </div>
-
-
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row servicos" >
+            <div class="col-md-5 col-sm-10 col-xs-10 teste pregs" id="babies">
+            </div>
+            <div class="col-md-5 col-sm-10 col-xs-10 pregtext">
+                <h3>Pack Filhotes</h3>
+                <p>A Hora chegou? Finalmente! O quê? Já abriram os olhinhos? Primeiros latidos? Orelhas subindo? Em um mês, os novos integrantes da sua família terão crescido muito rápido... não deixe nada passar! </p>
+                <div class="d-flex justify-content-center botao">
+                    <button class="consulte"><a href="#">CONSULTE VALORES</a></button>
+                </div>
+            </div>
         </div>
     </main>
 
