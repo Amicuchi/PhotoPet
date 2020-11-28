@@ -18,7 +18,7 @@ body {
 header{
     line-height: 2rem;
     /*Gradiente gerado no site: https://cssgradient.io/*/
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(235,235,235,1) 100%);
+    background: #E9CDAF;
 }
 
 header div{
@@ -49,14 +49,15 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(137, 137, 137);
+    background-color:#d1985bd2;
     color: white;
     text-decoration: none;
+    border-radius: 20px;
 }
 
-main {
+/* main {
     min-height: 550px;
-}
+} */
 
 footer {
     width: 100%;
@@ -65,5 +66,5 @@ footer {
     height: 2rem;
     font-weight: 100;
     text-align: center;
-    background-color: rgb(233, 231, 231);
+    background-color: #E9CDAF;
 }
