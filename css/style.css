@@ -64,7 +64,14 @@ header li a:hover {
 
 /*----- Início do Main na Página Inicial -----*/
 
+#index-main div img{
+    width: 100%;
+    z-index: 0;
+}
 
+#main-texto{
+    z-index: 1;
+}
 
 /*----- Fim do Main na Página Inicial -----*/
 
