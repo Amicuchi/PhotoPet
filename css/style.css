@@ -16,6 +16,9 @@ body {
     background-size: cover;
 }
 
+
+/*----- Início do Menu Superior e do Header -----*/
+
 header{
     line-height: 2rem;
     /*Gradiente gerado no site: https://cssgradient.io/*/
@@ -56,8 +59,14 @@ header li a:hover {
     border-radius: 20px;
 }
 
+/*----- FIM DO HEADER E DO MENU -----*/
 
 
+/*----- Início do Main na Página Inicial -----*/
+
+
+
+/*----- Fim do Main na Página Inicial -----*/
 
 
 footer {
