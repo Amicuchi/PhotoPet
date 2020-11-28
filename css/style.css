@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    /* font-family: ; */
+}
+
+#bodyIndex{
+    background-image: url("/img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    line-height: 2rem;
+    /*Gradiente gerado no site: https://cssgradient.io/*/
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(235,235,235,1) 100%);
+}
+
+header div{
+    display: flex;
+    justify-content:space-between;
+}
+
+#janeLogo{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+#menuSuperior {
+    margin: 0;
+    padding: 0;
+    padding-right: 2rem;
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+}
+
+header div ul li{
+    display: inline;
+}
+li a {
+    color: black;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(137, 137, 137);
+    color: white;
+}
+
+article {
+    min-height: 580px;
+}
+
+footer {
+    vertical-align: bottom;
+    height: 2rem;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(233, 231, 231);
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer div{
+    vertical-align: middle;
+}
