@@ -41,25 +41,40 @@ header div{
 header div ul li{
     display: inline;
 }
-li a {
+header li a {
     color: black;
     text-align: center;
     padding: 0.5rem 1.5rem;
     text-decoration: none;
 }
 
-li a:hover {
+header li a:hover {
     background-color:#d1985bd2;
     color: white;
     text-decoration: none;
     border-radius: 20px;
 }
 
-/* main {
-    min-height: 550px;
-} */
+
 
 /*----- Início Página Contato -----*/
+.contact h2 {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.contact h3{
+    margin-bottom: 2rem;
+}
+#contact-map span{
+    font-size: 0.8rem;
+}
+#contact-info ul{
+    disp
+}
+
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -72,7 +87,6 @@ li a:hover {
 #contact {
   background: #F9F9F9;
   padding: 25px;
-  margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 

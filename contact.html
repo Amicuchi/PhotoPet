@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div> 
+        <div class="container"> 
             <a href="/index.html"><img id="logo-header" src="img/logo.png" alt="Logo PhotoPet"></a>
             <ul id="menuSuperior">
                 <li><a href="index.html">Página Inicial</a></li>
@@ -28,16 +28,30 @@
         </div>
     </header>
 
-    <main>
-        <div class="contato row">  
-            <div class="col-xl-4 col-sm-12">
+    <main class="container">
+        <div class="contact row">  
+            <h2>Alguma dúvida? Entre em contato conosco!</h2>
+            <div id="contact-info" class="col-xl-4 col-sm-12">
+                <h3>Informações</h3>
+                <span>Elit uasi quidem minus id omnis a nibh fusce mollis imperdie tlorem ipuset phas ellus ac sodales Lorem ipsum dolor Phas ellus adipisicing elit uasi quidem minus id omnis a nibh fusce mollis imperdie tlorem ipuset campas fincas</span><br><br>
+                <strong>Telefone:</strong><span>(11) 3500-9839</span><br>
+                <strong>Email:</strong> <span>contato@photopet.com</span><br><br>
+                <strong>Redes Sociais:</strong><br>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><img src="https://img.icons8.com/metro/26/000000/facebook.png"/></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="https://img.icons8.com/metro/26/000000/instagram-new.png"/></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="https://img.icons8.com/metro/26/000000/twitter.png"/></a></li>
+                </ul>
             </div>
-            <div class="col-xl-4 col-sm-12">
+            <div id="contact-map" class="col-xl-4 col-sm-12">
+                <h3>Onde estamos</h3>
+                <strong>Nosso endereço:</strong><br>
+                <span> Av. Dr. Cardoso de Melo, 90 - Vila Olímpia, São Paulo - SP</span><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.191635152843!2d-46.675348!3d-23.6026147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1606536987214!5m2!1spt-BR!2sbr" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
-            <div class="col-xl-4 col-sm-12">
+            <div id="contact-form" class="col-xl-4 col-sm-12">
+                <h3>Fale conosco</h3>
             <form id="contact" action="" method="post">
-              <h3>Alguma dúvida?</h3>
-              <h4>Entre em contato conosco!</h4>
               <fieldset>
                 <input placeholder="Seu nome" type="text" tabindex="1" required autofocus>
               </fieldset>
@@ -45,24 +59,13 @@
                 <input placeholder="Seu email" type="email" tabindex="2" required>
               </fieldset>
               <fieldset>
-                <input placeholder="Whatsapp" type="tel" tabindex="3" required>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Assunto" type="text" tabindex="4" required>
-              </fieldset>
-              <fieldset>
-                <textarea placeholder="Mensagem" tabindex="5" required></textarea>
+                <textarea placeholder="Mensagem" tabindex="3" required></textarea>
               </fieldset>
               <fieldset>
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Enviando">Enviar</button>
               </fieldset>
             </form>
           </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.191635152843!2d-46.675348!3d-23.6026147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1606536987214!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
         </div>
     </main>
 
