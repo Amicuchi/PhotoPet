@@ -1,0 +1,123 @@
+dogpregs {
+    width: 47vw;
+    height: 43vh;
+    overflow: visible;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/dog-pregnant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px 0px 16px 0px;;
+
+}
+#babies {
+    background-image: url(../img/dog-puppies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#barriga {
+    background-image: url(../img/dog-pregnant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#familia {
+    background-image: url(../img/bigodes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#studio {
+    background-image: url(../img/6d130534d4cdefeecb23b1c87ad86ade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#outdoors {
+    background-image: url(../img/picture-of-woman-playing-with-dog-by-Sarah-Gupta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pregs {
+   
+    height: 47vh;
+    /*width: 43vw;*/
+    margin-left: auto;
+    
+    border-radius: 16px 0px 0px 16px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
+    
+}
+.pregtext {
+    box-sizing: border-box;
+    padding: 3% 3% 2% 3%;
+    height: 47vh;
+    /*width: 43vw;*/
+    margin-right: auto;
+    border-radius: 0px 16px 16px 0px;
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}      
+
+.pregtext h3 {
+    font-family: 'Inter', sans-serif;
+    color: #2b2b2b;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.pregtext p {
+    font-family: "Inter", sans-serif;
+    color: #2b2b2b;
+    font-size: 105%;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    text-align: justify;
+    margin-top: 5%;
+    }
+
+.consulte {
+    margin-top: 5%;
+    width: 45%;
+    height: 8vh;
+    background-color: #E9CDAF;
+    border-radius: 8px;
+    font-size: 18;
+    text-transform: uppercase;
+    border: none;
+    overflow: hidden;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.consulte a {
+    color:#2b2b2b;
+    text-decoration: none;
+}
+
+.consulte:hover {
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: rgb(222, 179, 135);
+}
+
+h2 {
+    text-align: center;
+    margin: 5% ;
+    font-family: 'inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36;
+}

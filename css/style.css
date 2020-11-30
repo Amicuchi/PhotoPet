@@ -4,10 +4,17 @@
 }
 
 body {
+    font-family: 'inter', sans-serif;
     width: 100%;
     height: 100vh;
     background-color: rgb(228, 228, 228);
     font-family: "Inter", sans-serif;
+}
+
+  #bodyIndex{
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /*----- Início do Menu Superior e do Header -----*/
