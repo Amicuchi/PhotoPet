@@ -1,52 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Link para o CSS do bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/lightslider.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/lightslider.min.css" />
 
     <!-- link para o css redigido pela equipe -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/gallery.css" />
 
     <!-- google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
     <title>PhotoPet - Nossa galeria</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container"> 
-            <a href="/index.html"><img id="logo-header" src="/img/logo.png" alt="Logo PhotoPet"></a>
-            <ul id="menuSuperior">
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="services.html">Nossos Serviços</a></li>
-                <li><a href="galery.html">Galeria</a></li>
-                <li><a href="about.html">Sobre Nós</a></li>
-                <li><a href="contact.html">Contato</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <a href="/index.html"
+          ><img id="logo-header" src="/img/logo.png" alt="Logo PhotoPet"
+        /></a>
+        <ul id="menuSuperior">
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="services.html">Nossos Serviços</a></li>
+          <li><a href="galery.html">Galeria</a></li>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
+      <div class="gallery">
+        <h1>CLIENTES SATISFEITOS</h1>
 
+        <div class="cards">
+          <div class="card">
+            <img src="./img/dog2.jpg" alt="pepito" />
+            <div class="info">
+              <h2>Pepito</h2>
+              <div class="row">
+                <div class="col">
+                  <p>Macho, 7 Meses.</p>
+                  <p>João Pessoa, PB.</p>
+                </div>
+                <a href="#" class="btnplus">
+                  <img src="./img/plus.png" alt="plus sign" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/dog3.jpg" alt="pepito" />
+            <div class="info">
+              <h2>Doge</h2>
+              <div class="row">
+                <div class="col">
+                  <p>Fêmea, 9 meses.</p>
+                  <p>São Paulo, SP.</p>
+                </div>
+                <a href="#" class="btnplus">
+                  <img src="./img/plus.png" alt="plus sign" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./img/cat1.jpg" alt="pepito" />
+            <div class="info">
+              <h2>Catto</h2>
+              <div class="row">
+                <div class="col">
+                  <p>Fêmea, 5 meses.</p>
+                  <p>Recife, PE.</p>
+                </div>
+                <a href="#" class="btnplus">
+                  <img src="./img/plus.png" alt="plus sign" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div>
-            Desenvolvido pelo Grupo 6 do Projeto Integrador - Digital House - Estação Hack by Facebook
-        </div>
+      <div>
+        Desenvolvido pelo Grupo 6 do Projeto Integrador - Digital House -
+        Estação Hack by Facebook
+      </div>
     </footer>
 
     <!-- Script da Equipe -->
     <script src="./js/script.js"></script>
-    
+
     <!-- Script do bootstrap -->
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/lightslider.min.js"></script>
-</body>
+  </body>
 </html>

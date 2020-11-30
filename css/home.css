@@ -1,0 +1,94 @@
+/*----- Início do Main na Página Inicial -----*/
+
+#bodyIndex{
+    background-image: url("/img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#mainIndex{
+    /* Falta configurar para deixar as divs em grid */
+}
+
+#divSup{
+
+}
+
+#divSup img{
+    width: 100%;
+    z-index: 0;
+    display: inline-block;
+    position: relative;
+    border: black 2px solid;
+}
+
+#divSup div{
+    z-index: 1;
+    color: white;
+    width: 500px;
+    border: black 2px solid;
+}
+
+#divSup div h1{
+    font-weight: bold;
+    color: #F7F7F7;
+    border: black 2px solid;
+}
+
+#divSup div p{
+    font-weight: 100;
+    border: black 2px solid;
+}
+
+#divSup div #btnMkt{
+    background-color: #E9CDAF;
+    width: 300px;
+    height: 3rem;
+    border: black 2px solid;
+}
+
+#divSup div #btnMkt a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: black 2px solid;
+}
+
+#divInf{
+    border: black 2px solid;
+}
+
+#divInf div{
+    border: black 2px solid;
+}
+
+#divInf .mainCard{
+    border: 20px solid white;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+#divInf div #main-card1{
+    transform: rotate(15deg);
+}
+
+#divInf div #main-card2{
+    transform: rotate(350deg);
+}
+
+#divInf div #main-card3{
+    transform: rotate(30deg);
+}
+
+#divInf #main-cardSlogan{
+
+}
+
+#divInf #main-cardSlogan h2{
+
+}
+
+#divInf #main-cardSlogan p{
+
+}
+
+/*----- Fim do Main na Página Inicial -----*/
