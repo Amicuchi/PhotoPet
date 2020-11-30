@@ -63,6 +63,14 @@ main{
     padding-bottom: 50px;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 /*----- Fim do Main -----*/
 
 
