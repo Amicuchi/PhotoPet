@@ -1,110 +1,70 @@
-/*----- Início do Main na Página Inicial -----*/
-
 #bodyIndex{
     box-sizing: border-box;
 }
 
-#mainIndex{
-    
+#divSuperior{
+    border: none;
+    margin-bottom: 100px;
 }
 
-#divSup{
-    
+#divSuperior #divSlogan{
+    margin-top: 7rem;
 }
 
-#divSup img{
-    width: 100%;
-}
-
-#divSup div{
-    z-index: 1;
-    color: white;
-    width: 500px;
-}
-
-#divSup div h1{
-    font-weight: bold;
-    color: #F7F7F7;
-}
-
-#divSup div p{
-    font-weight: 100;
-}
-
-/* #divSup div #btnMkt{
-    background-color: #E9CDAF;
-    width: 300px;
-    height: 3rem;
+#divSuperior #divSlogan h1{
     text-align: center;
-    border-radius: 10px;
-} */
-
-.btn .btn-primary{
-    background-color: #E9CDAF;
 }
 
-#divSup div #btnMkt a{
+#divSuperior #divSlogan p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#divSuperior #divSlogan a{
+    width: 30%;
+    background-color: #E9CDAF;
+    border: none;
     color: black;
 }
 
-#divInf{
-    
+#divInferior{
+    padding-bottom: 4rem;
 }
 
-#divInf div{
-
-}
-
-#divInf .mainCard{
-    border: 20px solid white;
+.mainCard{
+    width: 25rem;
+    border: 1.2rem solid white;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
     position: relative;
-    top: 50px;
+    top: 3rem;
 }
 
-#divInf div #main-card1{
+#mainCard1{
     transform: rotate(15deg);
 }
 
-#divInf div #main-card2{
+#mainCard2{
     transform: rotate(350deg);
 }
 
-#divInf div #main-card3{
+#mainCard3{
     transform: rotate(30deg);
 }
 
-#divInf #main-cardSlogan{
-    width: 30%;
-    height: 60vh;
-    min-height: 400px;
-    max-height: 430px;
-    border-radius: 16px;
-    overflow: hidden;
-    margin-bottom: 24px;
-    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+#mainCard4{
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
 }
 
-#main-cardSlogan .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3.5% 10%;
-  }
-
-#divInf #main-cardSlogan h2{
-    font-size: 1.75em;
-    font-weight: bold;
-    margin-bottom: 3%;
-    color: #2b2b2b;
+#mainCard4 h2{
+    padding: 0.8rem;
+    font-size: 1.5rem;
 }
 
-#divInf #main-cardSlogan p{
-    margin-bottom: 3px;
-    font-weight: 500;
-    font-size: 1em;
-    color: #2b2b2b;
-    font-weight: bold;
+#mainCard4 p{
+    padding: 0.8rem;
+    font-size: 1rem;
 }
-
-/*----- Fim do Main na Página Inicial -----*/
