@@ -75,15 +75,36 @@
 }
 
 #divInf #main-cardSlogan{
-
+    width: 30%;
+    height: 60vh;
+    min-height: 400px;
+    max-height: 430px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-#divInf #main-cardSlogan h2{
+#main-cardSlogan .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5% 10%;
+  }
 
+#divInf #main-cardSlogan h2{
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-bottom: 3%;
+    color: #2b2b2b;
 }
 
 #divInf #main-cardSlogan p{
-
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 1em;
+    color: #2b2b2b;
+    font-weight: bold;
 }
 
 /*----- Fim do Main na Página Inicial -----*/

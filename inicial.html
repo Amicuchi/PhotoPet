@@ -9,18 +9,17 @@
     <link rel="stylesheet" href="/css/lightslider.min.css">
 
     <!-- link para o css redigido pela equipe -->
-
     <link rel="stylesheet" href="/css/style.css">
-    
+    <link rel="stylesheet" href="/css/home.css">
+
     <!-- google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-
-    <title>PhotoPet - Sobre Nós</title>
+    <title>PhotoPet - Página Inicial</title>
 </head>
 
-<body>
+<body id="bodyIndex">
     <header>
         <div class="container"> 
             <a href="/index.html"><img id="logo-header" src="/img/logo.png" alt="Logo PhotoPet"></a>
@@ -34,8 +33,31 @@
         </div>
     </header>
 
-    <main>
+    <main class='container'>
+        <div id="divSuperior" class="card bg-dark text-white">
+            <img class="card-img" src="/img/dog-banner.jpg" alt="Imagem do card">
+            <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam cupiditate esse aliquid quidem, minima perferendis iste placeat consequatur aspernatur suscipit voluptate provident sit dignissimos, vitae eligendi. Rerum, quisquam debitis! Unde?</p>
+                <a href="#" class="btn btn-primary">Descubra as oportunidades</a>
+            </div>
+        </div>
 
+        <div id="divInferior" class='row'>
+            <div id="cards" class='col'>
+                <img id="mainCard1" class="mainCard" src="img/dog1.jpg" alt="">
+                <img id="mainCard2" class="mainCard" src="img/dog1.jpg" alt="">
+                <img id="mainCard3" class="mainCard" src="img/dog1.jpg" alt="">
+            </div>
+
+            <div class="cards>
+                <div class="card-body">
+                  <h5 class="card-title">Registre os momentos que importam</h5>
+                  <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                </div>
+            </div>
+            
+        </div>
     </main>
 
     <footer>
