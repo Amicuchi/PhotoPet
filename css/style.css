@@ -84,11 +84,16 @@ footer {
     /* --------- */
 
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     height: 2rem;
     font-weight: 100;
     text-align: center;
     background-color: #E9CDAF;
 }
 
+
+@media screen and (max-width:  420px){
+    footer{
+        height:5rem;
+    }
+}
