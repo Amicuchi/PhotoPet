@@ -22,6 +22,8 @@ Projeto integrador desenvolvido durante o curso de Desenvolvimento Web Front End
 :shipit: PhotoPet - Surgiu com a missão de permitir que as pessoas tenham a oportunidade de eternizar bons momentos com seus bichinhos de estimação que, sejamos sinceros, são verdadeiros membros das famílias modernas. :dog: :cat: :rabbit:
 
 ## 🖼 Screenshot das telas do site 
+<br>
+<br>
 
 ## 🖼 Tela principal da plataforma do PhotoPet 
 <br>
@@ -83,19 +85,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
       height="120"
     />
   </a>
-
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    target="_blank"
-  >
+  
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
     <img
       src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg"
-      alt="javascript"
+      alt="Css3"
       width="120"
       height="120"
     />
   </a>
-  
 </p>
 
 <br>
@@ -205,4 +203,4 @@ Depois que o merge da sua pull request ser feito, você pode deletar a sua branc
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença MIT.
+Este projeto esta sob a licença MIT.
