@@ -1,8 +1,6 @@
-# GPI6_PhotoPet
+# GPI-6 - PhotoPet
 
-Front End Coding Facebook
-
-Projeto desenvolvido para curso de Front-End da Digital House - Estação Hack by Facebook.
+Projeto desenvolvido para o curso de Front-End da Digital House - Estação Hack by Facebook.
 
 <h4 align="center"> 
 	🚧  PhotoPet 👨‍🏫 Demonstração ✔️ 🚧
@@ -11,18 +9,17 @@ Projeto desenvolvido para curso de Front-End da Digital House - Estação Hack b
 ## :coffee: Facebook - Digital House
 
 O Front End Coding Facebook é um programa educacional promovido pelo Facebook em parceria com a instituição de ensino Digital House. <br>
-Para poder ingressar no programa cada aluno, foi submetido um processo seletivo com o intuito de ser um dos 200 bolsistas, que receberiam bolsas integrais de estudo para o curso de Desenvolvimento Web Front End.
+Para poder ingressar no programa cada aluno foi submetido a um processo seletivo com o intuito de ser um dos 200 bolsistas que receberiam bolsas integrais de estudo para o curso de Desenvolvimento Web Front End.
 
 <br>
 
 ## 💻 Sobre o projeto
 
-Projeto integrador desenvolvido durante o curso de Desenvolvimento Web Front End oferecido pela [digitalhouse](https://www.digitalhouse.com/br/) em parceria com o Facebook.
+Projeto Integrador desenvolvido durante o curso de Desenvolvimento Web Front End oferecido pela [digitalhouse](https://www.digitalhouse.com/br/) em parceria com o Facebook.
 <br>
 :shipit: PhotoPet - Surgiu com a missão de permitir que as pessoas tenham a oportunidade de eternizar bons momentos com seus bichinhos de estimação que, sejamos sinceros, são verdadeiros membros das famílias modernas. :dog: :cat: :rabbit:
 
-## 🖼 Screenshot das telas do site 
-<br>
+## Screenshot das telas do site 
 <br>
 
 ## 🖼 Tela principal da plataforma do PhotoPet 
@@ -80,7 +77,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
     <img
       src="https://devicon.dev/devicon.git/icons/css3/css3-original-wordmark.svg"
-      alt="Css3"
+      alt="CSS3"
       width="120"
       height="120"
     />
@@ -89,11 +86,22 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
     <img
       src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg"
-      alt="Css3"
+      alt="Javascript"
       width="120"
       height="120"
     />
   </a>
+  
+  <a href="https://getbootstrap.com/" target="_blank">
+    <img
+      src="https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/assets/images/elements/bootstrap-stack.png"
+      alt="Bootstrap"
+      width="120"
+      height="120"
+    />
+  </a>
+  
+  
 </p>
 
 <br>
