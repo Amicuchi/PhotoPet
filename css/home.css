@@ -8,10 +8,11 @@
 }
 
 #divSuperior #divSlogan{
-    margin-top: 7rem;
+    box-shadow: inset 570px 0px 225px 40px rgba(0, 0, 0, 0.40);
 }
 
 #divSuperior #divSlogan h1{
+    margin-top: 7rem;
     text-align: center;
 }
 
@@ -57,6 +58,8 @@
     width: 100%;
     border-radius: 10px;
     min-height: 240px;
+    padding-top: 4%;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 #mainCard4 h2{
@@ -86,6 +89,7 @@
     #divSuperior #divSlogan h1 {
         text-align: center;
         font-size: 1.2rem;
+        margin-top: 1rem;
     }
 
 }
