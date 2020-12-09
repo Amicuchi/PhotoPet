@@ -127,7 +127,7 @@ Depois que o merge da sua pull request ser feito, você pode deletar a sua branc
 
 <div align=center>
     <a href="https://www.digitalhouse.com/br/">
-        <img width="200" src="./images/logodh.jpg">
+        <img width="200" src="https://www.digitalhouse.com/logo-DH.png">
     </a>
 </div>
 
@@ -155,7 +155,7 @@ Depois que o merge da sua pull request ser feito, você pode deletar a sua branc
                     width="150px;" 
                     alt="Imagem da Anderson Amicuchi Machado" />
                 <br />
-                <sub><b>Anderson Amicuchi Machado</b></sub>
+                <sub><b>Anderson Amicuchi</b></sub>
             </a>
         </td>
         <td align="center">
