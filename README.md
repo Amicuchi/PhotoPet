@@ -201,9 +201,9 @@ Depois que o merge da sua pull request ser feito, você pode deletar a sua branc
                 <img 
                     src="https://avatars1.githubusercontent.com/u/22935523?s=460&u=d0b9c767c1e33d97ee1293fbf2bb313ccef990cd&v=4" 
                     width="150px;" 
-                    alt="Imagem do Leonardo 'Léo' Shoes" />
+                    alt="Imagem do Leonardo Silva />
                 <br />
-                <sub><b>'Léo' Shoes</b></sub>
+                <sub><b>Leonardo Silva</b></sub>
             </a>
         </td>
     </tr>
