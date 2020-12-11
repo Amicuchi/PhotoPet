@@ -1,127 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Link para o CSS do bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/lightslider.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="sortcut icon" href="/img/logo.png" type="image/png" />
+  <!-- Link para o CSS do bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lightslider.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <!-- link para o css redigido pela equipe -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contact.css">
+  <!-- link para o css redigido pela equipe -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
 
-    <!-- google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>PhotoPet - Orçamento</title>
+  <title>PhotoPet - Orçamento</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar sticky-top navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img id="logo-header" src="img/logo.png" alt="Logo PhotoPet"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <i class="fas fa-bars"></i>
-          </button>
-        
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                    <li class="nav-item"><a class="nav-link" id="inicio" href="index.html">Página Inicial</a></li>
-                    <li class="nav-item"><a class="nav-link" id="servicos" href="services.html">Nossos Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" id="galeria" href="gallery.html">Galerias</a></li>
-                    <li class="nav-item"><a class="nav-link" id="sobreNos" href="about.html">Sobre Nós</a></li>
-                    <li class="nav-item"><a class="nav-link" id="contato" href="contact.html">Contato</a></li>
-                    <li class="nav-item"><a class="nav-link" id="orcamento" href="orcamento.html">Orçamento</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    
-    </header>
+  <header>
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img id="logo-header" src="img/logo.png" alt="Logo PhotoPet"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
 
-    <main class="container">
-        <div class="contact row">  
-            <div class="orcamento col-xl-12">
-                <div class="card card-outline-secondary">
-                    <div class="card-header">
-                      <h3 class="mb-0">Orçamento</h3>
-                    </div>
-                    <div class="card-body">
-                      <form autocomplete="off" class="form" role="form" onsubmit="calculaOrcamento(event)">
-                        <div class="form-group">
-                          <label for="inputName">Nome</label> 
-                                              <input class="form-control" id="name" placeholder="Seu nome" type="text">
-                        </div>
-                        <div class="form-group">
-                          <label for="selectPack">Qual pacote te interessou?</label> 
-                                              <select class="form-control" id="selectPack">
-                              <option value="1.2">Pack Maternidade</option>
-                              <option value="1">Pack Filhotes</option>
-                              <option value="1.5">Pack Retrato em Família</option>
-                              <option value="1.3">Pack Studio</option>
-                              <option value="1.8">Pack Outdoor</option>
-                          </select>
-                        </div>
-                        <div class="form-group">
-                          <label for="qtdAnimais">Quantos animais serão fotografados?</label> 
-                                              <input class="form-control" id="qtdAnimais" type="number" required> 
-                        </div>
-                        <div class="form-group">
-                          <label for="qtdFotos">Quantas fotos você deseja?</label> 
-                                              <input class="form-control" id="qtdFotos" type="number" required>
-                        </div>
-                        <div class="form-group">
-                          <button class="btn btn-success btn-lg float-right" type="submit">Enviar</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-xl-12">
-                  <div id="resultadoOrcamento"></div>
-                </div>
-              
-              </div>
-           
-          </div>
-    </main>
-
-    <footer>
-        <div>
-            Desenvolvido pelo Grupo 6 do Projeto Integrador - Digital House - Estação Hack by Facebook
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item"><a class="nav-link" id="inicio" href="index.html">Página Inicial</a></li>
+            <li class="nav-item"><a class="nav-link" id="servicos" href="services.html">Nossos Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" id="galeria" href="gallery.html">Galerias</a></li>
+            <li class="nav-item"><a class="nav-link" id="sobreNos" href="about.html">Sobre Nós</a></li>
+            <li class="nav-item"><a class="nav-link" id="contato" href="contact.html">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" id="orcamento" href="orcamento.html">Orçamento</a></li>
+          </ul>
         </div>
-    </footer>
+      </div>
+    </nav>
 
-    
-     <!-- Script do bootstrap -->
-     <script src="./js/bootstrap.min.js"></script>
-     <script src="./js/lightslider.min.js"></script>
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </header>
 
-     <!-- Script da Equipe -->
-    <script src="./js/script.js"></script>
-    
-     <!-- Script Orçamento-->
-    <script>
-      function calculaOrcamento(event){
-        event.preventDefault()
-        let nome = document.querySelector('#name').value;
-        let precoBase = 20;
-        let pack = document.querySelector('#selectPack option:checked').value;
-        let qtdAnimais = document.querySelector('#qtdAnimais').value;
-        let qtdFotos = document.querySelector('#qtdFotos').value;
-        let precoFinal = qtdAnimais < 3 ? (precoBase * pack) * qtdFotos : ((precoBase * pack) * qtdFotos) *1.5;
-        let precoFinalFormatado = parseFloat(precoFinal.toFixed(2)).toLocaleString('pt-BR', {currency: 'BRL',minimumFractionDigits: 2});
+  <main class="container">
+    <div class="contact row">
+      <div class="orcamento col-xl-12">
+        <div class="card card-outline-secondary">
+          <div class="card-header">
+            <h3 class="mb-0">Orçamento</h3>
+          </div>
+          <div class="card-body">
+            <form autocomplete="off" class="form" role="form" onsubmit="calculaOrcamento(event)">
+              <div class="form-group">
+                <label for="inputName">Nome</label>
+                <input class="form-control" id="name" placeholder="Seu nome" type="text">
+              </div>
+              <div class="form-group">
+                <label for="selectPack">Qual pacote te interessou?</label>
+                <select class="form-control" id="selectPack">
+                  <option value="1.2">Pack Maternidade</option>
+                  <option value="1">Pack Filhotes</option>
+                  <option value="1.5">Pack Retrato em Família</option>
+                  <option value="1.3">Pack Studio</option>
+                  <option value="1.8">Pack Outdoor</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="qtdAnimais">Quantos animais serão fotografados?</label>
+                <input class="form-control" id="qtdAnimais" type="number" required>
+              </div>
+              <div class="form-group">
+                <label for="qtdFotos">Quantas fotos você deseja?</label>
+                <input class="form-control" id="qtdFotos" type="number" required>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-success btn-lg float-right" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-12">
+          <div id="resultadoOrcamento"></div>
+        </div>
 
-        document.querySelector('#resultadoOrcamento').innerHTML = `Olá, ${nome}, o seu orçamento fica em R\$${precoFinalFormatado}. <br> Para confirmar, nos envie uma mensagem no whatsapp.<br>`
-        document.querySelector('#resultadoOrcamento').innerHTML += ` <a href="https://api.whatsapp.com/send?phone=5541992693665&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20${nome}%2C%20quero%20confirmar%20o%20or%C3%A7amento%20de%20${qtdFotos}%20fotos%20no%20valor%20de%20${precoFinalFormatado}%20reais.%20Como%20realizo%20o%20pagamento%3F" class="btn btn-success btn-sm" type="submit" target="_blank">Enviar mensagem</a>`
-      }
-    </script>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      Desenvolvido pelo Grupo 6 do Projeto Integrador - Digital House - Estação Hack by Facebook
+    </div>
+  </footer>
+
+
+  <!-- Script do bootstrap -->
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/lightslider.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <!-- Script da Equipe -->
+  <script src="./js/script.js"></script>
+
+  <!-- Script Orçamento-->
+  <script>
+    function calculaOrcamento(event) {
+      event.preventDefault()
+      let nome = document.querySelector('#name').value;
+      let precoBase = 20;
+      let pack = document.querySelector('#selectPack option:checked').value;
+      let qtdAnimais = document.querySelector('#qtdAnimais').value;
+      let qtdFotos = document.querySelector('#qtdFotos').value;
+      let precoFinal = qtdAnimais < 3 ? (precoBase * pack) * qtdFotos : ((precoBase * pack) * qtdFotos) * 1.5;
+      let precoFinalFormatado = parseFloat(precoFinal.toFixed(2)).toLocaleString('pt-BR', {
+        currency: 'BRL',
+        minimumFractionDigits: 2
+      });
+
+      document.querySelector('#resultadoOrcamento').innerHTML =
+        `Olá, ${nome}, o seu orçamento fica em R\$${precoFinalFormatado}. <br> Para confirmar, nos envie uma mensagem no whatsapp.<br>`
+      document.querySelector('#resultadoOrcamento').innerHTML +=
+        ` <a href="https://api.whatsapp.com/send?phone=5541992693665&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20${nome}%2C%20quero%20confirmar%20o%20or%C3%A7amento%20de%20${qtdFotos}%20fotos%20no%20valor%20de%20${precoFinalFormatado}%20reais.%20Como%20realizo%20o%20pagamento%3F" class="btn btn-success btn-sm" type="submit" target="_blank">Enviar mensagem</a>`
+    }
+  </script>
 </body>
+
 </html>
