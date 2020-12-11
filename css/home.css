@@ -8,14 +8,15 @@
 }
 
 #divSuperior #divSlogan{
-    box-shadow: inset 570px 0px 225px 40px rgba(0, 0, 0, 0.40);
+    padding-top: 7rem;
 }
 
 #divSuperior #divSlogan h1{
-    margin-top: 7rem;
     text-align: center;
 }
-
+#divSuperior #divSlogan{
+    box-shadow: inset 570px 0px 225px 40px rgba(0, 0, 0, 0.40);
+}
 #divSuperior #divSlogan p{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -58,8 +59,6 @@
     width: 100%;
     border-radius: 10px;
     min-height: 240px;
-    padding-top: 4%;
-    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 #mainCard4 h2{
@@ -76,9 +75,9 @@
 
 
 @media screen and (max-width: 420px) {
-    #divSuperior #divSlogan{
-        margin-top: unset;
-    }
+    #divSuperior #divSlogan {
+    padding-top: 1rem;
+}
     #divSuperior img {
         opacity: 0.4;
         min-height: 340px;
@@ -89,7 +88,6 @@
     #divSuperior #divSlogan h1 {
         text-align: center;
         font-size: 1.2rem;
-        margin-top: 1rem;
     }
 
 }

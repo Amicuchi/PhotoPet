@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="sortcut icon" href="/img/logo.png" type="image/png" />
-
-    <!-- Link para o JQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     <!-- Link para o CSS do bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/lightslider.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- link para o css redigido pela equipe -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
@@ -30,90 +23,84 @@
     <header>
         <nav class="navbar sticky-top navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img id="logo-header" src="img/logo.png"
-                        alt="Logo PhotoPet"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                        <li class="nav-item"><a class="nav-link" id="inicio" href="index.html">Página Inicial</a></li>
-                        <li class="nav-item"><a class="nav-link" id="servicos" href="services.html">Nossos Serviços</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" id="galeria" href="gallery.html">Galerias</a></li>
-                        <li class="nav-item"><a class="nav-link" id="sobreNos" href="about.html">Sobre Nós</a></li>
-                        <li class="nav-item"><a class="nav-link" id="contato" href="contact.html">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" id="orcamento" href="orcamento.html">Orçamento</a></li>
-                    </ul>
-                </div>
+                <a class="navbar-brand" href="index.html"><img id="logo-header" src="img/logo.png" alt="Logo PhotoPet"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fas fa-bars"></i>
+          </button>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item"><a class="nav-link" id="inicio" href="index.html">Página Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link" id="servicos" href="services.html">Nossos Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" id="galeria" href="gallery.html">Galerias</a></li>
+                    <li class="nav-item"><a class="nav-link" id="sobreNos" href="about.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" id="contato" href="contact.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" id="orcamento" href="orcamento.html">Orçamento</a></li>
+                </ul>
+              </div>
             </div>
-        </nav>
-
+          </nav>
+    
     </header>
 
     <main class='container'>
         <div class="row">
-            <div id="divSuperior" class="card bg-dark text-white">
-                <!-- <img class="card-img" src="img/dog-banner.jpg" alt="Filhote de Golden"> -->
+        <div id="divSuperior" class="card bg-dark text-white">
+            <!-- <img class="card-img" src="img/dog-banner.jpg" alt="Filhote de Golden"> -->
 
-                <ul id="imageGallery">
-                    <li data-thumb="img/slider/3.jpg" data-src="img/slider/3.jpg">
-                        <img src="img/slider/3.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/2.jpg" data-src="img/slider/2.jpg">
-                        <img src="img/slider/2.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/4.jpg" data-src="img/slider/4.jpg">
-                        <img src="img/slider/4.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/5.jpg" data-src="img/slider/5.jpg">
-                        <img src="img/slider/5.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/1.jpg" data-src="img/slider/1.jpg">
-                        <img src="img/slider/1.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/6.jpg" data-src="img/slider/6.jpg">
-                        <img src="img/slider/6.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/7.jpg" data-src="img/slider/7.jpg">
-                        <img src="img/slider/7.jpg" />
-                    </li>
-                    <li data-thumb="img/slider/8.jpg" data-src="img/slider/8.jpg">
-                        <img src="img/slider/8.jpg" />
-                    </li>
-                </ul>
+            <ul id="imageGallery">
+                <li data-thumb="img/slider/3.jpg" data-src="img/slider/3.jpg">
+                    <img src="img/slider/3.jpg" />
+                </li>
+                <li data-thumb="img/slider/2.jpg" data-src="img/slider/2.jpg">
+                    <img src="img/slider/2.jpg" />
+                </li>
+                <li data-thumb="img/slider/4.jpg" data-src="img/slider/4.jpg">
+                    <img src="img/slider/4.jpg" />
+                </li>
+                <li data-thumb="img/slider/5.jpg" data-src="img/slider/5.jpg">
+                    <img src="img/slider/5.jpg" />
+                </li>
+                <li data-thumb="img/slider/1.jpg" data-src="img/slider/1.jpg">
+                    <img src="img/slider/1.jpg" />
+                </li>
+                <li data-thumb="img/slider/6.jpg" data-src="img/slider/6.jpg">
+                    <img src="img/slider/6.jpg" />
+                </li>
+                <li data-thumb="img/slider/7.jpg" data-src="img/slider/7.jpg">
+                    <img src="img/slider/7.jpg" />
+                </li>
+                <li data-thumb="img/slider/8.jpg" data-src="img/slider/8.jpg">
+                    <img src="img/slider/8.jpg" />
+                </li>
+            </ul>
 
-                <div id='divSlogan' class="card-img-overlay">
-                    <h1 class="card-title col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        Fotografia é Magia!
-                    </h1>
-                    <p class="card-text col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        A Magia da Fotografia está na captura de momentos, homenageando e eternizando nossas melhores
-                        memórias! Porquê não contratar um serviço especializado em registrar os nossos melhores amigos?
-                    </p>
-                    <div class="d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                        <a href="services.html" class="btn btn-primary">
-                            Descubra as Possibilidades
-                        </a>
-                    </div>
+            <div id='divSlogan' class="card-img-overlay">
+                <h1 class="card-title col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    Fotografia é Magia!
+                </h1>
+                <p class="card-text col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    A Magia da Fotografia está na captura de momentos, homenageando e eternizando nossas melhores memórias! Porquê não contratar um serviço especializado em registrar os nossos melhores amigos?
+                </p>
+                <div class="d-flex justify-content-center col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <a  href="services.html" 
+                        class="btn btn-primary">
+                        Descubra as Possibilidades
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
 
         <div id="divInferior" class='row'>
             <div class='col-xl-6 col-md-12'>
                 <img id="mainCard1" class="mainCard" src="img/rusty.jpg">
             </div>
             <div class="cards col-xl-6 col-md-12">
-                <div id="mainCard4">
+                <div id="mainCard4" >
                     <h2>Registre os momentos que importam!</h2>
                     <p>
-                        Nós da PhotoPet entendemos de animais! Nós conhecemos os olhares mais fofos, e valorizamos os
-                        surtos de energia. A combinação de paixão e habilidade? Fotos mágicas e uma experiência
-                        registrada em materiais da mais alta qualidade!
+                       Nós da PhotoPet entendemos de animais! Nós conhecemos os olhares mais fofos, e valorizamos os surtos de energia. A combinação de paixão e habilidade? Fotos mágicas e uma experiência registrada em materiais da mais alta qualidade!
                     </p>
                 </div>
             </div>
@@ -154,16 +141,14 @@
             Desenvolvido pelo Grupo 6 do Projeto Integrador - Digital House - Estação Hack by Facebook
         </div>
     </footer>
-
+    
     <!-- Script do bootstrap -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="./js/lightslider.min.js"></script>
+       <script src="./js/lightslider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+    
     <!-- Script da Equipe -->
     <script src="js/script.js"></script>
 
@@ -188,5 +173,4 @@
         });
     </script> -->
 </body>
-
 </html>
