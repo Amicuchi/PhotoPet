@@ -1,29 +1,26 @@
-#bodyIndex{
-    box-sizing: border-box;
-}
 
 #divSuperior{
     border: none;
     margin-bottom: 100px;
 }
 
-#divSuperior #divSlogan{
+#divSlogan{
     padding-top: 7rem;
 }
 
-#divSuperior #divSlogan h1{
+#divSlogan h1{
     text-align: center;
 }
-#divSuperior #divSlogan{
+#divSlogan{
     box-shadow: inset 570px 0px 225px 40px rgba(0, 0, 0, 0.40);
 }
-#divSuperior #divSlogan p{
+#divSlogan p{
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
 }
 
-#divSuperior #divSlogan a{
+#divSlogan a{
     width: 60%;
     background-color: #E9CDAF;
     border: none;
@@ -74,18 +71,18 @@
 .brand-slider-full img { width:100% !important; }
 
 
-@media screen and (max-width: 420px) {
-    #divSuperior #divSlogan {
-    padding-top: 1rem;
-}
+@media screen and (max-width: 510px) {
     #divSuperior img {
         opacity: 0.4;
         min-height: 340px;
     }
+    #divSlogan {
+    padding-top: 1rem;
+}
     .mainCard {
         max-width: 20rem;
     }
-    #divSuperior #divSlogan h1 {
+    #divSlogan h1 {
         text-align: center;
         font-size: 1.2rem;
     }
