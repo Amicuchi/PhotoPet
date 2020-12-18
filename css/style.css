@@ -1,6 +1,6 @@
 html {
     position: relative;
-    min-height: 100%;
+    min-height: 100vh;
 }
 * {
     margin: 0;
@@ -74,6 +74,594 @@ a{
 a:hover{
     text-decoration: none;
 }
+
+
+/*----- Início do Home -----*/
+
+#divSuperior{
+    border: none;
+    margin-bottom: 100px;
+}
+
+#divSlogan{
+    padding-top: 7rem;
+}
+
+#divSlogan h1{
+    text-align: center;
+}
+#divSlogan{
+    box-shadow: inset 570px 0px 225px 40px rgba(0, 0, 0, 0.40);
+}
+#divSlogan p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#divSlogan a{
+    width: 60%;
+    background-color: #E9CDAF;
+    border: none;
+    color: black;
+}
+
+#divInferior{
+    padding-bottom: 4rem;
+}
+
+.mainCard{
+    width: 25rem;
+    border: 1.2rem solid white;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    top: 3rem; 
+}
+
+#mainCard1{
+    transform: rotate(15deg);
+}
+
+#mainCard2{
+    transform: rotate(350deg);
+}
+
+#mainCard3{
+    transform: rotate(30deg);
+}
+
+#mainCard4{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 240px;
+}
+
+#mainCard4 h2{
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+
+#mainCard4 p{
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+.brand-slider-full img { width:100% !important; }
+
+
+@media screen and (max-width: 510px) {
+    #divSuperior img {
+        opacity: 0.4;
+        min-height: 340px;
+    }
+    #divSlogan {
+    padding-top: 1rem;
+}
+    .mainCard {
+        max-width: 20rem;
+    }
+    #divSlogan h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}
+/*----- Fim do Home -----*/
+
+/*----- Início do gallery -----*/
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8%;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .gallery h1 {
+    font-size: 2em;
+    margin: 32px 0;
+    font-weight: bold;
+    color: #2b2b2b;
+  }
+  
+  .cards-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 6%;
+  }
+  
+  .card-gallery {
+    width: 30%;
+    height: 60vh;
+    min-height: 400px;
+    max-height: 430px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    background-color: white;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card-gallery img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .card-gallery .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5% 10%;
+    justify-content: space-around;
+  }
+  
+  .info h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 3%;
+    color: #2b2b2b;
+  }
+  
+  .btnplus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 5vh;
+    overflow: visible;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #e9cdaf;
+    border-radius: 8px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .btnplus p{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2b2b2b;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .custommodal{
+    display: none;
+    opacity: 0;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 100;
+    transition: 0.3s ease-in;
+  }
+  
+  .custommodal .row{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 4px;
+  }
+  
+  .custommodal .close{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    height: 30px;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+  }
+  
+  .modalheader{
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 15vh;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .modalheader h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .modalheader p{
+    margin-bottom: 8px;
+    max-width: 60%;
+    overflow: auto;
+    text-align: center;
+  }
+  
+  .modal-content{
+    width: 85%;
+    height: 70vh;
+    overflow: auto;
+    border-radius: 0 0 16px 16px;
+    padding: 1%;
+    border: none;
+    padding-top: 0;
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .modal-pictures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .modal-pictures a img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 6%;
+    border-radius: 4px;
+  }
+  
+  .btnplus:hover,
+  .btnplus:focus{
+    background-color: #d6a167;
+  }
+  
+  .show{
+    display: flex;
+  }
+  
+  @media (max-width: 1024px) {
+    .card-gallery {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .card-gallery {
+      width: 100%;
+    }
+  
+    .modalheader{
+      height: 25vh;
+    }
+  }
+  
+  @media (max-width: 520px) {
+    .modal-pictures a img{
+      width: 300px;
+      height: 300px;
+    }
+  }
+/*----- Fim do gallery -----*/
+/*----- Início do services -----*/
+dogpregs {
+    width: 47vw;
+    height: 43vh;
+    overflow: visible;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/dog-pregnant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px 0px 16px 0px;
+}
+#babies {
+    background-image: url(../img/dog-puppies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#barriga {
+    background-image: url(../img/dog-pregnant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#familia {
+    background-image: url(../img/bigodes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#studio {
+    background-image: url(../img/6d130534d4cdefeecb23b1c87ad86ade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#outdoors {
+    background-image: url(../img/picture-of-woman-playing-with-dog-by-Sarah-Gupta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pregs {
+   
+    height: 47vh;
+    /*width: 43vw;*/
+    margin-left: auto;
+    
+    border-radius: 16px 0px 0px 16px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
+    
+}
+.pregtext {
+    box-sizing: border-box;
+    padding: 3% 3% 2% 3%;
+    height: 47vh;
+    /*width: 43vw;*/
+    margin-right: auto;
+    border-radius: 0px 16px 16px 0px;
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}      
+
+.pregtext h3 {
+    font-family: 'Inter', sans-serif;
+    color: #2b2b2b;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.pregtext p {
+    font-family: "Inter", sans-serif;
+    color: #2b2b2b;
+    font-size: 105%;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    text-align: justify;
+    margin-top: 5%;
+    }
+
+.consulte {
+    margin-top: 5%;
+    width: 45%;
+    height: 8vh;
+    background-color: #E9CDAF;
+    border-radius: 8px;
+    font-size: 18;
+    text-transform: uppercase;
+    border: none;
+    overflow: hidden;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.consulte a {
+    color:#2b2b2b;
+    text-decoration: none;
+}
+
+.consulte:hover {
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: rgb(222, 179, 135);
+}
+
+#services h2 {
+    text-align: center;
+    margin: 2.5% ;
+    font-family: 'inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36;
+}
+/*----- Fim do services -----*/
+
+/*----- Início do about -----*/
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner-about {
+    padding: 0 0 0 0;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25)
+}
+
+#about .text-about{
+    margin-top: 10px;
+    background-color: white;
+
+    border-radius: 16px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25)
+}
+#about h3{
+    margin-top: 1rem;
+    text-align: center;
+}
+/*----- Fim do about -----*/
+
+/*----- Início Página Contato/orçamento -----*/
+.contact h2 {
+    margin: 3rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.contact h3{
+    margin-bottom: 2rem;
+}
+#contact-map span{
+    font-size: 0.8rem;
+}
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/*----- Fim página de Contato -----*/
+
+/*----- Início página de orçamento -----*/
+div#resultadoOrcamento {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  background: #d0d169;
+}
+
+.orcamento{
+  margin-top: 4rem;
+}
+
+/*----- Fim do contact -----*/
+
+
 
 /*----- Fim do Main -----*/
 
