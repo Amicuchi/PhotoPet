@@ -7,8 +7,7 @@ dogpregs {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 16px 0px 16px 0px;;
-
+    border-radius: 16px 0px 16px 0px;
 }
 #babies {
     background-image: url(../img/dog-puppies.jpg);
@@ -113,11 +112,12 @@ dogpregs {
     background-color: rgb(222, 179, 135);
 }
 
-h2 {
+/* #services h2 {
+    
     text-align: center;
-    margin: 2% ;
+    margin: 5% ;
     font-family: 'inter', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 36;
-}
+} */
